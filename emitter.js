@@ -23,7 +23,6 @@ var emitter = {
         else{
                 this.handlers["event"] = [callback];
         }
-        (this.handlers["event"][0])();
     } 
 
 
